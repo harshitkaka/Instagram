@@ -173,65 +173,52 @@ section .card-header{
 	transform: translate(-50%, -50%);
 
 }
-.image-container{
-	position: relative;	
-	max-width: 	40%;
-	height: auto;
-	border: 1px solid;	
+section .image-container{
+	
+    width: 	100%;
+    height: 600px;
 	margin: 0 auto;
+	
+	display: inline-block;
+
 }
-.image-container section div{
-	position: 	absolute;	
-	height: 	100%;
-	width: 	100%;
-	top: 76px;
-	background: url("https://instagram.fjai1-1.fna.fbcdn.net/vp/1c02244cb44c9c743a208e70b06ff579/5E02A049/t51.2885-15/e35/67850279_2206404886316058_3842965688283727953_n.jpg?_nc_ht=instagram.fjai1-1.fna.fbcdn.net");
-    height: 700px;
+.bg-img{
+   	background: url("https://instagram.fjai1-1.fna.fbcdn.net/vp/1c02244cb44c9c743a208e70b06ff579/5E02A049/t51.2885-15/e35/67850279_2206404886316058_3842965688283727953_n.jpg?_nc_ht=instagram.fjai1-1.fna.fbcdn.net");
+    height: 600px;
     background-repeat: 	no-repeat;	
     background-size: 	100% 100%;
-    
-    
 }
 .options-container{
 	position: relative;	
-	max-width: 	40%;
+	max-width: 	100%;
+	height:50px;
 	margin: 0 auto;
 }
-.options-container section{
-	position: 	relative;	
-	max-width: 	100%;
-	height: auto;
-	
-
-}
-.options-container section .like-cont{
+.options-container .like-cont{
 	float: left;
 	position: relative;
 	height: 40px;
 	width: 10%;
-	top: 700px;
 	/* border:1px solid; */
 }
-.options-container section .cmnt-cont{
+.options-container .cmnt-cont{
 	float: left;
 	position: relative;
 	height: 40px;
 	width: 10%;
-	top: 700px;
 	/* border:1px solid; */
 }
-.options-container section .bkmark-cont{
+.options-container .bkmark-cont{
 	float: left;
 	position: relative;
 	height: 40px;
 	width: 80%;
-	top: 700px;
 	/* border:1px solid; */
 }
-.options-container section .like-cont li {
+.options-container .like-cont li {
 	list-style: none;
 }
-.options-container section .like-cont li i{
+.options-container .like-cont li i{
 	font-size: 30px;
 	color: grey;
 	position: absolute;
@@ -239,21 +226,21 @@ section .card-header{
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-.options-container section .cmnt-cont li{
+.options-container .cmnt-cont li{
 	list-style: none;
 }
-.options-container section .cmnt-cont li i{
+.options-container .cmnt-cont li i{
 	font-size: 30px;
 	color: grey;
     position: absolute;
 	top: 50%;
-	left: 30%;
-	transform: translate(-30%, -50%);
+	left: 20%;
+	transform: translate(-20%, -50%);
 }
-.options-container section .bkmark-cont li{
+.options-container .bkmark-cont li{
 	list-style: none;
 }
-.options-container section .bkmark-cont li i{
+.options-container .bkmark-cont li i{
 	font-size: 30px;
 	color: grey;
 	position: absolute;
@@ -261,35 +248,34 @@ section .card-header{
 	left: 98%;
 	transform: translate(-98%, -50%);
 }
-.likes{
-	position: relative;
-	max-width: 	40%;
+.like-block{
+	display: inline-block;
+	/* border:1px solid; */
+	width: 100%;
 	height: 30px;
-	/* border: 1px solid; */
-	margin: 0 auto;
-	top: 814px;
 }
-.likes div{
-	position: relative;
-	max-width: 	100%;
-	top: -108px;
+.sec-likes div b{
+	padding-left: 20px;
 }
-.likes div b{
 
-    position: relative;
-    left: 20px;
-
-}
 .comment-container{
+	display: inline-block;
+	/* border:1px solid; */
+	width: 100%;
+	height: 50px;
+}
+.comment-container div b{
 	position: relative;
-	max-width: 	40%;
+	left: 18px;
+	padding-right: 24px;
 	
-	margin: 0 auto;
-	top: 814px;
 }
-.comment-container div{
-	height: 40px;
+.comment-container div span{
 	position: relative;
-	top: -76px;
-	left: 20px;
-}
+	font-family: all;
+	font-weight: bolder;
+	color: grey;
+	margin-top: 30px;
+	top: 10px;
+	left: 18px;
+}	
